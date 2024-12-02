@@ -1,0 +1,10 @@
+variable "project_name" {}
+variable "private_subnet_ids" {}
+variable "eks-capacity_type" {}
+variable "eks-instance_types" {}
+variable "labels" {}
+variable "access_config_autentication_mode" {}
+variable "scaling_config_desired_size" {}
+variable "scaling_config_max_size" {}
+variable "scaling_config_min_size" {}
+variable "update_config_max_unavailable" {}

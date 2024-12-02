@@ -1,0 +1,13 @@
+variable "region" {}
+variable "project_name" {}
+variable "vpc_cidr" {}
+variable "def_route" {}
+variable "eip_domain" {}
+variable "eks-capacity_type" {}
+variable "eks-instance_types" {}
+variable "labels" {}
+variable "access_config_autentication_mode" {}
+variable "scaling_config_desired_size" {}
+variable "scaling_config_max_size" {}
+variable "scaling_config_min_size" {}
+variable "update_config_max_unavailable" {}
