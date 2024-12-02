@@ -1,0 +1,10 @@
+variable "project_name" {}
+variable "lb_type" {}
+variable "elb_SG_id" {}
+variable "private_subnet_ids" {}
+variable "vpc_id" {}
+variable "health_check_path" {}
+variable "tg_port" {}
+variable "tg_protocol" {}
+variable "tg_listener_default_action_type" {}
+variable "instance_id" {}

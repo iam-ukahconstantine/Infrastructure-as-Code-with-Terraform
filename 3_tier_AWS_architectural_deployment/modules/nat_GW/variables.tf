@@ -1,0 +1,9 @@
+variable "eip_domain" {}
+variable "availability_zones" {}
+variable "public_subnet_ids" {}
+variable "IGW_id" {}
+variable "vpc_id" {}
+variable "def_route" {}
+variable "private_subnet_ids" {}
+variable "DB_subnet_id" {}
+variable "project_name" {}
