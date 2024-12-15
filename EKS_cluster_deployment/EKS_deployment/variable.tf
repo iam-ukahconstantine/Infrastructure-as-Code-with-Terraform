@@ -11,3 +11,10 @@ variable "scaling_config_desired_size" {}
 variable "scaling_config_max_size" {}
 variable "scaling_config_min_size" {}
 variable "update_config_max_unavailable" {}
+variable "public_key_name" {}
+variable "public_key_path" {}
+variable "instance_type" {}
+variable "root_device_type" {}
+variable "image_name" {}
+variable "image_owners" {}
+variable "architecture_type" {}
