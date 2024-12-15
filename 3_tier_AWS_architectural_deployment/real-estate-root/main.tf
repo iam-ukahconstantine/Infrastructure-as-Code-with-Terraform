@@ -56,7 +56,7 @@ module "EC2" {
   source                                             = "github.com/iam-ukahconstantine/terraform-infrastructure/3-Tier_aws_architectural_deployment/modules/EC2"
   image_name                                         = var.image_name
   architecture_type                                  = var.architecture_type
-  virtualization_type                                = var.architecture_type
+  virtualization_type                                = var.virtualization_type
   root_device_type                                   = var.root_device_type
   image_owners                                       = var.image_owners
   launch_template_instance_type                      = var.launch_template_instance_type
